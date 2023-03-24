@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me!</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://kit.fontawesome.com/b97db328cf.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <div class="back-ground">
+        
+    </div>
+    <div class="slider">
+        <div class="avatar">
+         <img width="85px" src="./assets/icon/hihi2.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h1>Văn Tuấn Kiệt</h1>
+            <p>Ngày sinh: 27/01/2004</p>
+            <p>Quê quán: Bình Định</p>
+            <p>Hiện đang học tại trường đại học Sài Gòn, là một người hướng nội thích đá bóng, thích chill và đặc biệt thích kem vì nó có em!</p>
+        </div>
+
+        
+
+        <div class="icon">
+            <div class="third fb">
+                <a href="https://www.facebook.com/cuhai.kiet/"><img width="70px" height="70px" src="./assets/icon/fbdep2.webp" alt=""></a>
+            </div>
+            <div class="third ins">
+                <a href="https://www.instagram.com/vtkiet27/"><img width="70px" height="70px" src="./assets/icon/insdep.png" alt=""></a>
+            </div>
+            <div class="third zalo">
+                <a href="https://www.youtube.com/"><img width="100px" height="70px" src="./assets/icon/yt.webp" alt=""></a>
+            </div>
+        </div>
+
+        <div class="audio">
+            <audio id="player">
+                <source src="./assets/audio/girllikeyou.mp3">
+            </audio>
+            <div id="audio-player">
+                <div class="controls"> 
+                    <!--tạo 1 cái progress bar-->
+                    <div id="progressbar">
+                        <div id="progress"></div>
+                    </div>
+    
+                    <div class="time">
+                        <span id="curtime">00:00</span>
+                        <span>/</span>
+                        <span id="durtime">00:00</span>
+                    </div>
+    
+                    <div class="button-gr">
+                        <span><i id="playbutton" class="far fa-play-circle"></i></span>
+                        <span><i id="loop" class="fas fa-undo"></i></span>
+                        <span><i id="volume" class="fas fa-volume-up"></i></span>
+                    </div>
+                    <!-- ở đây gồm 3 phần nhỏ nhé -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
